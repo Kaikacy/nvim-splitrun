@@ -98,7 +98,6 @@ function M.splitrun(command, opts)
 
   if opts.focus then
     vim.api.nvim_set_current_win(win)
-    vim.cmd.startinsert()
   end
 end
 
